@@ -1,0 +1,20 @@
+{
+  "name": "qvac-rag-keyword-scoring",
+  "version": "1.0.0",
+  "description": "Reproduces three bugs in the keyword part of the search score in @qvac/rag",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "node scripts/fix-import-map.mjs",
+    "test": "node test.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@qvac/rag": "^0.9.0",
+    "brittle": "^4.5.0",
+    "corestore": "^7.16.1"
+  },
+  "private": true
+}
